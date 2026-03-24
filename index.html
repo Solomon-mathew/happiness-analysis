@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHI Report Analysis</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; color: #333; background-color: #f9f9f9; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h1, h2 { color: #2c3e50; }
+        img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; margin-top: 15px; }
+        .chart-section { margin-bottom: 40px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Global Happiness Index Analysis</h1>
+        <p>This report presents the visualizations of the data from the Global Happiness Index (GHI) report, analyzing factors like Economy, Family, Health, Freedom, and their impact on the Happiness Score.</p>
+        
+        <div class="chart-section">
+            <h2>a. Correlation Bar Chart</h2>
+            <p>Visualizes the correlation between Economy, Family, Health, Freedom, and the Happiness Score to determine which factors have the strongest impact.</p>
+            <img src="correlation_barchart.png" alt="Correlation Bar Chart">
+        </div>
+
+        <div class="chart-section">
+            <h2>b. Distribution of Happiness Scores</h2>
+            <p>A histogram showcasing the statistical distribution of Happiness Scores across the dataset.</p>
+            <img src="happiness_distribution_histogram.png" alt="Happiness Distribution">
+        </div>
+
+        <div class="chart-section">
+            <h2>c. Economy vs. Happiness Score</h2>
+            <p>A scatter plot analyzing the direct relationship between a country's Economy (GDP per capita) and its Happiness Score, with an overlaid trend line.</p>
+            <img src="economy_vs_happiness_scatter.png" alt="Economy vs Happiness Scatter Plot">
+        </div>
+    </div>
+</body>
+</html>
